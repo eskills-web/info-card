@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Card</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <h1 class="topic"><u>Info Card</u></h1>
+        <div class="main">
+        <form>
+            <span>
+                <label>Full Name:</label>
+                <input type="text" id="ifullname">
+            </span>
+            <span>
+                <label>Mobile No.</label>
+                <input type="text" id="imobile">
+            </span>
+            <span>
+                <label>E-mail :</label>
+                <input type="email" id="iemail">
+            </span>
+            <span>
+                <label>Relation :</label>
+                <select id="irelation">
+                    <option selected disabled>SELECT</option>
+                    <option value="Friend">Friend</option>
+                    <option value="College">College</option>
+                    <option value="School">School</option>
+                    <option value="Other">Other</option>
+                </select>
+            </span>
+            <button>Save</button>
+        </form>
+
+        <div id="ans">
+            <span>
+                <h1>Full Name :</h1>
+                <h3 id="fullname"></h3>
+            </span>
+            <span>
+                <h1>Mobile No. </h1>
+                <h3 id="mobile"> </h3>
+            </span>
+            <span>
+                <h1>E-mail :</h1>
+                <h3 id="email"></h3>
+            </span>
+            <span>
+                <h1>Relation : </h1>
+                <h3 id="relation"></h3>
+            </span>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

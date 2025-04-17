@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.topic{
+    text-align: center;
+    background-color: rgb(48, 48, 209);
+    padding: 10px;
+}
+.main{
+    background-image: url("https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?t=st=1744832860~exp=1744836460~hmac=32847f2e54bfd8b8f64ec324838aca22f2accd62b7bf6d347c6eeb461ba785fb&w=1380");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+select{
+    background-color: rgba(99, 95, 95,0.5);
+}
+form{
+    background-color: rgba(99, 95, 95,0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    width: 50%;
+}
+label{
+    font-size: 32px;
+}
+input,select{
+    color: black;
+    width: 40vw;
+    padding: 5px 10px;
+}
+button{
+    margin-top: 10px;
+    background-color: brown;
+    padding: 10px 20px;
+    width: 100%;
+}
+span{
+    display: flex;
+    flex-direction: column;
+}
+#ans{
+    width: 40%;
+    padding: 40px;
+    background-color: rgba(99, 95, 95,0.7);
+    display: none;
+}
+#ans span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
